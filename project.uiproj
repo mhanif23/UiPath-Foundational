@@ -1,0 +1,6 @@
+{
+  "Name": "Foundational",
+  "ProjectType": "Process",
+  "Description": "Fundamental UiPath",
+  "MainFile": "Main.xaml"
+}
