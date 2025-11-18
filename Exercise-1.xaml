@@ -143,6 +143,6 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="478,109" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Sum: &quot; &amp; total.ToString() &amp;&#xD;&#xA;Environment.NewLine &amp; &quot;Rata-rata: &quot; &amp; average.ToString() &amp; &#xD;&#xA;Environment.NewLine &amp; &quot;Maximum: &quot; &amp; numbers.Max().ToString()]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="478,109" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Values: &quot; &amp; String.Join(&quot;, &quot;, numbers) &amp; &#xD;&#xA;Environment.NewLine &amp; &quot;Sum: &quot; &amp; total.ToString() &amp; &#xD;&#xA;Environment.NewLine &amp; &quot;Rata-rata: &quot; &amp; average.ToString() &amp; &#xD;&#xA;Environment.NewLine &amp; &quot;Maximum: &quot; &amp; numbers.Max().ToString()]" />
   </Sequence>
 </Activity>
